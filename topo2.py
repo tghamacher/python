@@ -1,12 +1,15 @@
-"""Custom topology example
+#********************************************************************
+#
+#   Short python script to make a simple topology in the Mininet (mn) 
+#   software-defined networking application. This script calls to the 
+#   low-level Mininet API.
+#
+#       by tghamacher
+#
+#*******************************************************************
 
-Two directly connected switches plus a host for each switch:
 
-   host --- switch --- switch --- host
 
-Adding the 'topos' dict with a key/value pair to generate our newly defined
-topology enables one to pass in '--topo=mytopo' from the command line.
-"""
 #!/usr/bin/python
 
 from mininet.node import Host,OVSSwitch,Controller
