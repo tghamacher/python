@@ -45,7 +45,6 @@ print h3.IP
 print h4.IP
 
 print 'Pinging...'
-print 'kek'
 
 s1.stop()
 s2.stop()
